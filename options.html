@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Extension Options</title>
+  <link rel="stylesheet" href="styles.css" /> <!-- Optional for styling -->
+</head>
+<body>
+  <h1>Extension Settings</h1>
+  
+  <!-- Auto-save option -->
+  <label>
+    <input type="checkbox" id="autoSave" />
+    Enable Auto-save
+  </label>
+
+  <!-- Dark Mode preference -->
+  <label>
+    <input type="checkbox" id="darkMode" />
+    Enable Dark Mode
+  </label>
+
+  <!-- Custom Commands -->
+  <label for="customCommand">Set Custom Command:</label>
+  <input type="text" id="customCommand" placeholder="Enter command" />
+
+  <!-- Save button -->
+  <button id="saveBtn">Save</button>
+
+  <!-- Reset button -->
+  <button id="resetBtn">Reset to Default</button>
+
+  <script src="options.js"></script>
+</body>
+</html>
